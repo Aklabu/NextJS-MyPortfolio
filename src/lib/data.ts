@@ -3,6 +3,7 @@ export const portfolioData = {
   title: "Backend Developer | Django | DRF | AWS | PostgreSQL",
   about: "I am a backend developer who loves building robust and scalable web applications.",
   skills: ["Django", "DRF", "AWS", "PostgreSQL", "Docker", "Linux"],
+  location: "Dhaka, Bangladesh",
   projects: [
     {
       id: 1,
