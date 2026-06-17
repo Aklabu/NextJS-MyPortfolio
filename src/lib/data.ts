@@ -8,7 +8,38 @@ export const portfolioData = {
   linkedin: "https://linkedin.com/in/joniakterlabu",
   about:
     "I am a passionate backend developer who loves building scalable, production-ready systems. I specialize in Django REST Framework and have delivered real-world SaaS platforms, mobile app backends, and e-commerce solutions.",
-  skills: ["Python", "Django REST Framework", "PostgreSQL", "Redis", "Celery", "Next.js", "Flutter", "Docker"],
+  skills: [
+    {
+      category: "Programming Languages",
+      icon: "💻",
+      items: ["Python", "JavaScript"],
+    },
+    {
+      category: "Backend",
+      icon: "⚙️",
+      items: ["Django", "DRF", "Django ORM", "Django Channels", "WebSocket"],
+    },
+    {
+      category: "Frontend",
+      icon: "🎨",
+      items: ["HTML", "CSS", "Tailwind CSS", "Bootstrap", "Next.js (Familiar)"],
+    },
+    {
+      category: "Data & Tasks",
+      icon: "🗄️",
+      items: ["PostgreSQL", "MySQL", "SQLite", "Redis", "Celery"],
+    },
+    {
+      category: "DevOps",
+      icon: "🚀",
+      items: ["Git", "GitHub", "GitHub Actions", "Docker", "Nginx", "VPS", "AWS"],
+    },
+    {
+      category: "APIs & Tools",
+      icon: "🔧",
+      items: ["OpenAI API", "Firebase", "Google Maps API", "JWT Auth", "Postman"],
+    },
+  ],
   projects: [
     {
       id: 1,
