@@ -16,7 +16,7 @@ export const portfolioData = {
       subtitle: "Non-Emergency Medical Transportation Platform",
       description:
         "A live SaaS platform for NEMT providers, including a web-based provider portal and a mobile app for drivers. Built the entire backend as sole backend developer using Django REST Framework. Supports real-time trip scheduling, dispatching, driver tracking, passenger trip management, facility billing and role-based operations with HIPAA-compliant architecture.",
-      tech: ["Django REST Framework", "PostgreSQL", "HIPAA", "SaaS"],
+      tech: ["Django REST Framework", "PostgreSQL", "Celery", "Redis", "Twilio", "Stripe", "Websocket", "Google Maps", "HIPAA", "SaaS"],
       link: { label: "GitHub", url: "https://github.com/Aklabu/DRF-HealthRide" },
     },
     {
@@ -25,7 +25,7 @@ export const portfolioData = {
       subtitle: "Real Estate Financing Platform",
       description:
         "A commercial real estate financing platform DRF backend with multi-role access, AI-powered document processing, automated financial models and offering memorandums, lender deal review, loan quote comparison and a centralized deal room with CRM-style distribution.",
-      tech: ["Django REST Framework", "AI Integration", "PostgreSQL", "CRM"],
+      tech: ["Django REST Framework", "AI Integration", "OpenAI API", "Celery", "Redis", "Google Maps", "PostgreSQL", "CRM"],
       link: { label: "Live Web", url: "http://bancre.com" },
     },
     {
@@ -34,7 +34,7 @@ export const portfolioData = {
       subtitle: "Music Streaming App",
       description:
         "A full-stack music streaming app where I built the entire backend using Django REST Framework. It powers a Flutter mobile app and includes authentication, music browsing, playlists, play history, and personalized recommendations.",
-      tech: ["Django REST Framework", "Flutter", "PostgreSQL"],
+      tech: ["Django REST Framework", "Flutter", "PostgreSQL", "JWT", "Django ORM", "Firebase Auth"],
       link: { label: "Play Store", url: "https://play.google.com/store/apps/details?id=com.app.stovetopmusic" },
     },
     {
